@@ -5,162 +5,264 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="container">
+    <img src="/images/me.png" id="banner" />
 
-        <div class="row">
+    <header>
+        <h1>Paul Day</h1>
+        <h2>Full-Stack Web Developer</h2>
+    </header>
 
-            <div class="col-md-6">
+    <section id="promo-table">
+        <div class="container">
+            <div class="row">
 
-                <div class="card">
-                    <img class="card-img-top" src="/images/dnd.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Dine-N-Dash 2017</h4>
-                        <p class="card-text">React JS-based event website with Universal rendering with Node JS and Wordpress REST API integration. Payments made possible by Stripe with Mailchimp email marketing integration.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+                <div class="col-md-3">
 
-                    </div>
+                    <h2><span><i class="fa fa-code" aria-hidden="true"></i></span>
+                        <strong>Front-end Development</strong>Experienced in the latest Javascript frameworks and libraries
+                        to build reactive, mobile-responsive websites with React and Angular, ES2015, HTML 5, and CSS 3.
+                    </h2>
+
                 </div>
+                <div class="col-md-3">
+                    <h2><span><i class="devicon-nodejs-plain"></i>
+                    </span><strong>Back-end development</strong> Efficent back-end developer with solid Node JS/Express skills
+                        to build secure and performant REST APIs and integrations with databases and third-party applications.
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <h2><span><i class="fa fa-bolt" aria-hidden="true"></i></span> <strong>Creatives</strong> Not just a coder,
+                        but also a business-saavy graphic designer, former digital marketer and project manager, bringing
+                        a creative perspective to projects.</h2>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <h2><span><i class="devicon-linux-plain"></i></span>
+                        <strong>DevOps</strong> Solid DevOps manager, able to deploy and manage high performance applications
+                        on Linux-based web servers.</h2>
+
+                </div>
+
+
 
             </div>
 
-            <div class="col-md-6">
+        </div>
+    </section>
 
-                <div class="card">
-                    <img class="card-img-top" src="/images/dndadmin.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Dine-N-Dash Administration</h4>
-                        <p class="card-text">Administrative dashboard to manage attendees, sales, ticketing, confirmation emails, and inventory, built with React/Redux, Node, MongoDB with Charts JS and Node Mailer.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+    <section id="skills">
 
-                    </div>
-                </div>
-
+        <div class="container">
+            <div class="row">
+                <div class="skill col-md-3"><i class="devicon-javascript-plain"></i><span>Javascript (ES6)</span></div>
+                <div class="skill col-md-3"><i class="devicon-angularjs-plain"></i><span>Angular JS</span></div>
+                <div class="skill col-md-3"><i class="devicon-react-original"></i><span>React JS</span></div>
+                <div class="skill col-md-3"><i class="devicon-nodejs-plain"></i><span>Node JS</span></div>
             </div>
 
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/tagcatalog.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">The Apparel Group Catalog Management</h4>
-                        <p class="card-text">Angular 2-based catalog management site with file uploads built with Node JS/Express and Mongo DB.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
+            <div class="row">
+                <div class="skill col-md-3"><i class="devicon-mongodb-plain"></i><span>Mongo DB</span></div>
+                <div class="skill col-md-3">Express<span>JS</span></div>
+                <div class="skill col-md-3"><b>EJS</b><span>Embedded Javascript</span></div>
+                <div class="skill col-md-3"><i class="devicon-jquery-plain"></i><span>jQuery</span></div>
             </div>
 
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/swolify.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Swolify</h4>
-                        <p class="card-text">React JS based prototype fitness/weightlifting app with Canvas.js charts. Designed and developed with Redux, Node JS, Mongo DB, Passport, EJS, and Webpack.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
+            <div class="row">
+                <div class="skill col-md-3"><i class="devicon-bootstrap-plain"></i><span>Bootstrap</span></div>
+                <div class="skill col-md-3"><i class="devicon-html5-plain"></i><span>HTML 5</span></div>
+                <div class="skill col-md-3"><i class="devicon-css3-plain"></i><span>CSS 3</span></div>
+                <div class="skill col-md-3"><i class="devicon-sass-original"></i><span>Sass</span></div>
             </div>
 
-
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/eventeral.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Eventeral</h4>
-                        <p class="card-text">Angular JS-based platform for managing small free events. Designed and developed on the MEAN stack with Node JS, Mongo DB, Express, EJS, Node Mailer, Passport Google, Node Twitter, and Materialize CSS. Includes Google authentication,
-                            user dashboard, custom landing pages, and an embeddable RSVP form.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/twiser.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Twiser</h4>
-                        <p class="card-text">Angular JS-based prototype user dashboard that pulls from the Twitter API. Built with Node JS, and Mongo DB and authentication with OAuth.io.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/wck2.jpg" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">World Central Kitchen</h4>
-                        <p class="card-text">Wordpress-based, mobile-responsive Corporate website built with PHP, HTML 5, JQuery.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
-            </div>
-
-
-
-            <div class="col-md-6">
-
-                <div class="card">
-                    <img class="card-img-top" src="/images/dcck.png" alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">DC Central Kitchen</h4>
-                        <p class="card-text">Wordpress-based, mobile-responsive Corporate website built with PHP, HTML 5, JQuery.</p>
-                        <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
-                        <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-                        <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
-
-                    </div>
-                </div>
-
+            <div class="row">
+                <div class="skill col-md-3"><i class="devicon-wordpress-plain"></i><span>Wordpress</span></div>
+                <div class="skill col-md-3"><i class="devicon-photoshop-plain"></i><span>Photoshop</span></div>
+                <div class="skill col-md-3"><i class="fa fa-cube" aria-hidden="true"></i><span>Webpack</span></div>
+                <div class="skill col-md-3"><i class="devicon-git-plain"></i><span>Git</span></div>
             </div>
 
         </div>
 
 
 
+    </section>
 
-    </div>
+    <section id="contact">
+
+        <div class="container">
+            <h1>Dallas, Texas and Remote</h1>
+            <p>Passionate web developer with over 6 years of experience. Please review my LinkedIn for more info and contact
+                me for local and remote projects!</p>
+            <p><a href="mailto:paul.day.m@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> paul.day.m@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/paulmday"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn: /paulmday</a></p>
+            <p><a href="https://github.com/pddigital"><i class="fa fa-github" aria-hidden="true"></i> /pddigital</a></p>
+        </div>
+
+    </section>
+
+    <section id="project-cards">
+        <div class="container">
+            <br />
+            <h1>Projects</h1>
+            <br />
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/dnd.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Dine-N-Dash 2017</h4>
+                            <p class="card-text">React JS-based event website with Universal rendering with Node JS and Wordpress REST API integration.
+                                Payments made possible by Stripe with Mailchimp email marketing integration.</p>
+                            <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/dndadmin.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Dine-N-Dash Administration</h4>
+                            <p class="card-text">Administrative dashboard to manage attendees, sales, ticketing, confirmation emails, and inventory,
+                                built with React/Redux, Node, MongoDB with Charts JS and Node Mailer.</p>
+                            <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/tagcatalog.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">The Apparel Group Catalog Management</h4>
+                            <p class="card-text">Angular 2-based catalog management site with file uploads built with Node JS/Express and Mongo
+                                DB.</p>
+                            <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/swolify.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Swolify</h4>
+                            <p class="card-text">React JS based prototype fitness/weightlifting app with Canvas.js charts. Designed and developed
+                                with Redux, Node JS, Mongo DB, Passport, EJS, and Webpack.</p>
+                            <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
+                            <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/eventeral.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Eventeral</h4>
+                            <p class="card-text">Angular JS-based platform for managing small free events. Designed and developed on the MEAN
+                                stack with Node JS, Mongo DB, Express, EJS, Node Mailer, Passport Google, Node Twitter, and
+                                Materialize CSS. Includes Google authentication, user dashboard, custom landing pages, and
+                                an embeddable RSVP form.</p>
+                            <a href="#" class="btn btn-danger"><i class="fa fa-play" aria-hidden="true"></i> Video Tour</a>
+                            <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/twiser.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Twiser</h4>
+                            <p class="card-text">Angular JS-based prototype user dashboard that pulls from the Twitter API. Built with Node JS,
+                                and Mongo DB and authentication with OAuth.io.</p>
+                            <a href="#" class="btn btn-success"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/wck2.jpg" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">World Central Kitchen</h4>
+                            <p class="card-text">Wordpress-based, mobile-responsive Corporate website built with PHP, HTML 5, JQuery.</p>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-6">
+
+                    <div class="card">
+                        <img class="card-img-top" src="/images/dcck.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">DC Central Kitchen</h4>
+                            <p class="card-text">Wordpress-based, mobile-responsive Corporate website built with PHP, HTML 5, JQuery.</p>
+                            <a href="#" class="btn btn-primary"><i class="fa fa-link" aria-hidden="true"></i> Live Link</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

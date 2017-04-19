@@ -1,5 +1,49 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700,900);
+@import url(https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+$dark-blue: #365CA7;
+$light-grey: #D1D4D6;
+$dark-grey: #A8ACB1;
+$light-blue: rgba(0, 157, 219, 1);
+$sky-blue: rgba(87, 137, 189, 1);
+
+
+
 body {
     font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#contact a:link {
+    color: $dark-blue;
+    text-decoration: none;
+}
+
+#contact a:visited {
+    color: $dark-blue;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: $light-blue;
+    text-decoration: none;
+}
+
+#contact a:active {
+    color: $light-blue;
+    text-decoration: none;
 }
 
 .card {
@@ -18,4 +62,110 @@ body {
 
 .card-title {
     font-weight: 900;
+}
+
+header {
+    width: 100%;
+    padding: 2rem;
+    background-color: $dark-blue;
+}
+
+#project-cards {
+    margin-top: 1rem;
+}
+
+#project-cards h1 {
+
+}
+
+
+header h1 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 6rem;
+}
+
+header h2 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+#promo-table {
+    padding: 2rem;
+    background-color: white;
+    background-image: url('/images/promo.png');
+    background-size: cover;
+}
+
+#promo-table .col-md-3 h2 {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#promo-table h2 span {
+    font-size: 10rem;
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    color: $dark-blue;
+}
+
+#promo-table h2 strong {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+#banner {
+    height: auto;
+    width: 100%;
+}
+
+#skills {
+    background-color: $dark-blue;
+    height: auto;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skill {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2.2rem;
+}
+
+#skills span {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 0;
+}
+
+
+#contact {
+    background-color: $dark-grey;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    header h1 {
+        font-size: 3.4rem;
+    }
+    header h2 {
+        font-size: 1.6rem;
+    }
+
 }
