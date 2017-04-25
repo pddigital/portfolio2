@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400i,700,900);
 @import url(https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/venobox/1.6.0/venobox.min.css);
+
 $dark-blue: #365CA7;
 $light-grey: #D1D4D6;
 $dark-grey: #A8ACB1;
@@ -13,6 +15,24 @@ $sky-blue: rgba(87, 137, 189, 1);
 body {
     font-family: 'Lato', sans-serif;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+
 
 p {
     font-size: 1.6rem;
@@ -101,7 +121,7 @@ header p {
 #promo-table {
     padding: 2rem;
     background-color: white;
-    background-image: url('/images/promo.png');
+    background-image: url('/images/promo.jpg');
     background-size: cover;
 }
 
